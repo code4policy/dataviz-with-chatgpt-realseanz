@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Chart Styling */
+#chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+    font-family: "Times New Roman", serif;
+}
+
+footer .credit {
+    margin-bottom: 5px;
+}
+
+footer .source a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer .source a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    fill: #4682b4;
+    transition: fill 0.2s;
+}
+
+.bar:hover {
+    fill: #ff7f50;
+}
+
+.axis text {
