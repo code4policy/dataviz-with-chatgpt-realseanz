@@ -1,1 +1,26 @@
-<!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston 311 Calls Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Boston 311 Calls: Key Trends in 2023</h1>
+            <p class="subtitle">This chart visualizes the top 10 reasons for 311 calls made in Boston during 2023, using data from <code>boston_311_2023_by_reason.csv</code>.</p>
+        </header>
+        <main>
+            <div id="chart"></div>
+            <footer>
+                <p class="credit">Author: Zhuyue Zhou</p>
+                <p class="source">Data Source: <a href="https://www.boston.gov/departments/boston-311" target="_blank">Boston 311</a></p>
+            </footer>
+        </main>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
